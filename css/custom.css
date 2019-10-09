@@ -1,0 +1,9 @@
+p {
+    text-align: justify;
+}
+
+.reveal section img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}

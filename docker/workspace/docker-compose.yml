@@ -1,0 +1,11 @@
+version: '3'
+
+services:
+  workspace:
+    image: workshop-docker
+    build: ./
+    ports:
+      - 8000:8000
+    volumes:
+      - ./../../:/workspace
+    command: tail -f /dev/null

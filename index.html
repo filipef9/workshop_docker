@@ -1,0 +1,110 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+		<title>Docker</title>
+
+		<link rel="shortcut icon" href="images/Docker-R-Logo-08-2018-Monochomatic-RGB_Moby-x1.png" type="image/png">
+
+		<link rel="stylesheet" href="css/reset.css">
+		<link rel="stylesheet" href="css/reveal.css">
+		<link rel="stylesheet" href="css/theme/black.css">
+		<link rel="stylesheet" href="css/custom.css">
+
+		<!-- Theme used for syntax highlighting of code -->
+		<link rel="stylesheet" href="lib/css/monokai.css">
+
+		<!-- Printing and PDF exports -->
+		<script>
+			var link = document.createElement( 'link' );
+			link.rel = 'stylesheet';
+			link.type = 'text/css';
+			link.href = window.location.search.match( /print-pdf/gi ) ? 'css/print/pdf.css' : 'css/print/paper.css';
+			document.getElementsByTagName( 'head' )[0].appendChild( link );
+		</script>
+	</head>
+	<body>
+		<div class="reveal">
+			<div class="slides">
+				<section data-markdown="src/main/markdown/00-cover.md"></section>
+
+				<section>
+					<section data-markdown="src/main/markdown/26-ops-pain.md"></section>
+					<section data-markdown="src/main/markdown/27-ops-pain.md"></section>
+					<section data-markdown="src/main/markdown/28-ops-pain.md"></section>
+					<section data-markdown="src/main/markdown/29-ops-pain.md"></section>
+				</section>
+
+				<section>
+					<section data-markdown="src/main/markdown/30-devs-pain.md"></section>
+					<section data-markdown="src/main/markdown/31-devs-pain.md"></section>
+					<section data-markdown="src/main/markdown/32-devs-pain.md"></section>
+				</section>
+
+				<section data-markdown="src/main/markdown/33-types-of-isolations.md"></section>
+
+				<section>
+					<section data-markdown="src/main/markdown/01-what-is-docker.md"></section>
+					<section data-markdown="src/main/markdown/02-what.md"></section>
+					<section data-markdown="src/main/markdown/03-analogy-container-before-1960.md"></section>
+					<section data-markdown="src/main/markdown/04-analogy-cargo-transport-with-container.md"></section>
+				</section>
+
+				<section>
+					<section data-markdown="src/main/markdown/05-what-is-a-container.md"></section>
+					<section data-markdown="src/main/markdown/06-what-is-a-container.md"></section>
+				</section>
+
+				<section data-markdown="src/main/markdown/07-vms-vs-containers.md"></section>
+
+				<section data-markdown="src/main/markdown/08-how-to-use-it.md"></section>
+
+				<section>
+					<section data-markdown="src/main/markdown/09-images.md"></section>
+					<section data-markdown="src/main/markdown/10-listing-images-locally.md"></section>
+					<section data-markdown="src/main/markdown/11-registry.md"></section>
+					<section data-markdown="src/main/markdown/12-registry.md"></section>
+					<section data-markdown="src/main/markdown/13-docker-hub.md"></section>
+					<section data-markdown="src/main/markdown/14-pull-a-image.md"></section>
+					<section data-markdown="src/main/markdown/15-dockerfile.md"></section>
+					<section data-markdown="src/main/markdown/16-dockerfile-example.md"></section>
+					<section data-markdown="src/main/markdown/17-building-an-image.md"></section>
+				</section>
+
+				<section>
+					<section data-markdown="src/main/markdown/18-running-a-container.md"></section>
+					<section data-markdown="src/main/markdown/19-listing-created-containers.md"></section>
+					<section data-markdown="src/main/markdown/20-accessing-a-container.md"></section>
+					<section data-markdown="src/main/markdown/21-visualizing-container-logs.md"></section>
+					<section data-markdown="src/main/markdown/22-mouting-volumes.md"></section>
+				</section>
+
+				<section data-markdown="src/main/markdown/23-possibilities-at-pf.md"></section>
+
+				<section data-markdown="src/main/markdown/24-how-learn-more.md"></section>
+
+				<section data-markdown="src/main/markdown/25-thank-you.md"></section>
+			</div>
+		</div>
+
+		<script src="js/reveal.js"></script>
+
+		<script>
+			// More info about config & dependencies:
+			// - https://github.com/hakimel/reveal.js#configuration
+			// - https://github.com/hakimel/reveal.js#dependencies
+			Reveal.initialize({
+				width: 1024,
+				height: 768,
+				dependencies: [
+					{ src: 'plugin/markdown/marked.js' },
+					{ src: 'plugin/markdown/markdown.js' },
+					{ src: 'plugin/notes/notes.js', async: true },
+					{ src: 'plugin/highlight/highlight.js', async: true }
+				]
+			});
+		</script>
+	</body>
+</html>
