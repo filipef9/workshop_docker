@@ -1,1 +1,34 @@
 == Workshop: Overview sobre utilização do Docker
+
+=== Executar Projeto Localmente (Docker)
+
+==== Dependências
+
+* Instalar última versão estável do *Docker*.
+* Instalar última versão estável do *Docker Compose*.
+
+==== Executando o Projeto
+
+Para rodar o projeto localmente, num container *Docker*, siga os passos abaixo:
+
+* Vá para a raiz do repositório
++
+```sh
+cd workshop_docker
+```
+* Execute o script *workspace* com o argumento *up*, para iniciar um container *Docker*.
++
+```sh
+./workspace up
+```
+* Dentro do container, pelo uma vez execute o comando de instalação das dependência do *Bower*.
++
+```sh
+bower install
+```
+* Inicie a publicação dos slides.
++
+```sh
+npm start
+```
+* Acesse os slides acessando o link http://localhost:8000
