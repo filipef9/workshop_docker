@@ -5,4 +5,4 @@
    * Servidor de aplicação
    * Banco de Dados Individualizado
 * Ambiente de Testes de Integração
-* Deploy em produção Openshift</li>
+* Deploy em produção no Openshift
